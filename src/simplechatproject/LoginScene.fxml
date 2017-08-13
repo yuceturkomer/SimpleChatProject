@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="455.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="commpy.LoginSceneController">
+   <children>
+      <Button fx:id="enterButton" layoutX="304.0" layoutY="203.0" mnemonicParsing="false" text="Enter" />
+      <Label layoutX="124.0" layoutY="121.0" text="ID" />
+      <Label layoutX="100.0" layoutY="159.0" text="Password" />
+      <Button fx:id="signUpButton" layoutX="188.0" layoutY="203.0" mnemonicParsing="false" text="Sign up" />
+      <TextField fx:id="loginID" layoutX="188.0" layoutY="116.0" />
+      <PasswordField fx:id="loginPass" layoutX="188.0" layoutY="154.0" />
+      <Label layoutX="122.0" layoutY="47.0" text="Welcome to Yessenger">
+         <font>
+            <Font name="Helvetica" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
